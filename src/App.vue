@@ -1,6 +1,15 @@
 <template>
-  <div>hello world</div>
-  <routerView></routerView>
+  <NavBar />
+  <RouterView />
 </template>
 
-<script setup></script>
+<script setup>
+/*
+  imports
+*/
+import NavBar from "./layouts/navbar/NavBar.vue"
+</script>
+
+<style>
+@import "bulma/css/bulma.min.css";
+</style>
